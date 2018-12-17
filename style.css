@@ -1,0 +1,265 @@
+/* hide angular internals until ready */
+[ng\:cloak],[ng-cloak],.ng-cloak {
+    display: none !important;
+}
+
+/* font */
+::selection {
+    background: rgba(143, 216, 210, 0.5);
+}
+
+h1 {
+    font-family: 'Abril Fatface', cursive;
+    font-size: 24pt;
+    padding-top: 40px;
+    float: left;
+}
+
+.h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18pt;
+    margin-left: -4px;
+    margin-bottom: 0px;
+    line-height: 24pt;
+}
+
+.h3 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14pt;
+    margin-top: 5px;
+    margin-left: -4px;
+    margin-bottom: 10px;
+    line-height: 24pt;
+}
+
+.underline {
+    text-decoration: none;
+    padding-bottom: 0px;
+	border-bottom: 1px solid;
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 12pt;
+    margin-top: 8px;
+    margin-bottom: 18px;
+    line-height: 18pt;
+}
+
+li {
+    font-family: 'Poppins', sans-serif;
+    font-size: 12pt;
+    line-height: 24pt;
+}
+
+.link {
+    color: black;
+    font-weight: 500;
+    text-decoration: none;
+    padding-bottom: 0px;
+	border-bottom: 1px solid;
+}
+
+.link:hover {
+    color: #df744a;
+    cursor: pointer;
+    text-decoration: none;
+    padding-bottom: 0px;
+	border-bottom: 2px solid;
+}
+
+.link:focus {
+    color: black;
+    text-decoration: none;
+    padding-bottom: 0;
+	border-bottom: 1px solid;
+}
+
+.link:active {
+    color: black;
+    text-decoration: none;
+    padding-bottom: 0;
+	border-bottom: 1px solid;
+}
+
+.no-bullet {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* general layout */
+.header {
+    max-width: 900px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.content {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.clear {
+    clear: both;
+}
+
+.space {
+    padding-bottom: 100px;
+}
+
+.thumb {
+    max-width: 205px;
+    max-height: 205px;
+    /* border-radius: 5px; */
+    /* box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+}
+
+.gallery a {
+    width: 205px;
+    height: 205px;
+    display: inline-block;
+    overflow: hidden;
+    margin: 5px 7px;
+}
+
+/* project layout */
+.project-container {
+    display: inline-grid;
+    grid-template-columns: 450px;
+    grid-gap: 30px;
+    vertical-align: top;
+    margin-top: -25px;
+}
+
+.project-item {
+    padding: 20px;
+}
+
+.project-thumb {
+    max-width: 90%;
+    max-height: 300px;
+    border-radius: 5px;
+    margin: 20px;
+    margin-left: 0px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* travel layout */
+
+
+/* art layout */
+.art-gallery-container {
+    display: inline-grid;
+    grid-template-columns: 205px 205px 205px 205px;
+    grid-gap: 12px;
+    vertical-align: top;
+}
+
+.art-gallery-item {
+    padding: 0px;
+}
+
+/* header icons */
+.social {
+    float: right;
+    text-align: right;
+    margin-top: 20px;
+    padding-top: 50px;
+    padding-right: 15px;
+}
+
+.social-list {
+    list-style-type: none;
+    font-size: 0pt;
+}
+
+.social-item {
+    display: inline-block;
+    padding-right: 30px;
+}
+
+.social-item:last-child {
+    padding-right: 0px;
+}
+
+.social-icon {
+    color: black;
+    text-decoration: none;
+}
+
+.social-icon:hover {
+    color: #df744a;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.social-icon:focus {
+    color: black;
+    text-decoration: none;
+}
+
+/* navbar */
+.navbar {
+    overflow: hidden;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.navbar a {
+    float: left;
+    color: black;
+    text-align: center;
+    margin: 14px 50px 20px 0px;
+    font-size: 10pt;
+    font-weight: 450;
+    text-transform: uppercase;
+    border-bottom: 2px solid;
+    border-color: white;
+}
+
+.navbar a:last-child {
+    margin-right: 0px;
+}
+
+.navbar a:hover {
+    color: #df744a;
+    cursor: pointer;
+    text-decoration: none;
+    padding-bottom: 0;
+	border-bottom: 2px solid;
+}
+
+.navbar a:focus, active {
+    color: black;
+    text-decoration: none;
+    padding-bottom: 0;
+	border-bottom: 2px solid;
+    border-color: white;
+}
+
+.navbar a:active {
+    color: #df744a;
+    text-decoration: none;
+    padding-bottom: 0;
+	border-bottom: 2px solid;
+}
+
+/* shapes */
+.big-rectangle {
+    background-color: #fedcd2;
+    position: absolute;
+    z-index: -1;
+}
+
+.big-rectangle-shadow {
+    background-color: #df744a;
+    position: absolute;
+    z-index: -2;
+}
+
+.small-rectangle {
+    border-left: 4px solid #8fd8d2;
+    border-right: 4px solid #8fd8d2;
+    position: absolute;
+    z-index: -1;
+}

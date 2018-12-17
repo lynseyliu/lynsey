@@ -1,0 +1,14 @@
+Set Bot
+https://github.com/lynseyliu/set-bot
+set.png
+(In Progress) Computer-vision-enabled bot for playing the card game Set. 
+
+TL;DR: Automatic Summarization of Text-Based Conversation
+http://viterb.me
+viterbi.png
+NLP capstone (CSE 481N) project - 
+
+Data Visualization: The Syrian Civil War
+https://cse442-17s.github.io/Syrian-Aid-and-Outcomes/final
+syria.png
+Data visualization (CSE 442) project - An interactive website visualizing economic aid, refugee, and health data surrounding the Syrian Civil War.

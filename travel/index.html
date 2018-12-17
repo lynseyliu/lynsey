@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html ng-app="lyns-app">
+<head>
+    <title>Lynsey Liu</title>
+    <meta charset="UTF-8">
+	<!-- jQuery -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+	<!-- Bootstrap -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,700i,800,800i,900" rel="stylesheet">
+    <!-- icon font -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<!-- page layout, general -->
+    <link rel="stylesheet" href="/style.css">
+	<!-- AngularJS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular.min.js"></script>
+    <!-- baguettebox -->
+    <!-- <link rel="stylesheet" href="/baguetteBox.min.css">
+    <script src="/baguetteBox.min.js" async></script> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.js" async></script>
+    <!-- my js -->
+    <script type="text/javascript" src="/script.js"></script>
+</head>
+
+<body>
+    <div class="site-container" ng-controller="ctrl" ng-cloak>
+        <div class="header">
+            <!-- decor -->
+            <div class="big-rectangle" ng-repeat="r in bigRectangleList" 
+                style="width:25px; height:50px; margin-top:{{ r.top }}%; margin-left:{{ r.left }}%; transform:rotate({{ r.theta }}deg);">
+            </div>
+            <div class="big-rectangle-shadow" ng-repeat="r in shadowList"
+                style="width:25px; height:50px; margin-top:{{ r.top }}%; margin-left:{{ r.left }}%; transform:rotate({{ r.theta }}deg);">
+            </div>
+            <div class="small-rectangle" ng-repeat="r in smallRectangleList"
+                style="width:15px; height:30px; margin-top:{{ r.top }}%; margin-left:{{ r.left }}%; transform:rotate({{ r.theta }}deg);">
+            </div>
+            <!-- site title -->
+            <div class="title">
+                <!-- name -->
+                <h1>Lynsey Liu</h1>
+                <!-- social icons (they're friends!) -->
+                <div class="social">
+                    <ul class="social-list">
+                        <li class="social-item"><a class="fa fa-facebook social-icon" href="https://www.facebook.com/wynseyroo" target="_blank"></a></li>
+                        <li class="social-item"><a class="fa fa-instagram social-icon" href="https://www.instagram.com/lynsey.liu" target="_blank"></a></li>
+                        <li class="social-item"><a class="fa fa-github social-icon" href="https://github.com/lynseyliu" target="_blank"></a></li>
+                        <li class="social-item"><a class="fa fa-linkedin social-icon" href="https://www.linkedin.com/in/lynseyliu" target="_blank"></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="clear"></div>
+            <!-- navbar -->
+            <div class="navbar">
+                <a href="/">Home</a>
+                <a href="http://127.0.0.1:8000/projects">Projects</a>
+                <a href="http://127.0.0.1:8000/art">Art</a>
+                <a href="http://127.0.0.1:8000/travel" style="text-decoration: none; padding-bottom: 0px; border-bottom: 1px solid;">Travel</a>
+            </div>
+        </div>
+        <div class="content">
+            <!-- travel -->
+            <div class="travel-container" ng-repeat="t in travelList">
+                <div class="h3" id="{{ t.id }}"><a class="link" href="{{ t.link }}" target="_blank">{{ t.title }}</a></div>
+                <p style="margin-left:-4px;">{{ t.description }}</p>
+            </div>
+        </div>
+        <p>https://drive.google.com/open?id=1cn8jdA8EtCOjEIJa81T8jiR5bgb2CQaQ&usp=sharing</p>
+        <div class="space"></div>
+    </div>
+</body>
+
+</html>
