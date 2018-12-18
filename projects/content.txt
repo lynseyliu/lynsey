@@ -6,7 +6,7 @@ set.png
 TL;DR: Automatic Summarization of Text-Based Conversation
 http://viterb.me
 viterbi.png
-NLP capstone (CSE 481N) project - 
+NLP capstone (CSE 481N) project - A model for automatic summarization of chat and email threads, adapted from document summary models.
 
 Data Visualization: The Syrian Civil War
 https://cse442-17s.github.io/Syrian-Aid-and-Outcomes/final
