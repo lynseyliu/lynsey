@@ -120,6 +120,13 @@ li {
     display: inline-block;
     overflow: hidden;
     margin: 5px 7px;
+    border-radius: 4px;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+}
+
+iframe {
+    margin-top: 40px;
+    border: none;
 }
 
 /* project layout */
@@ -146,6 +153,20 @@ li {
 
 /* travel layout */
 
+.travel-container {
+    display: inline-grid;
+    grid-template-columns: 450px;
+    /* grid-gap: 10px; */
+    /*vertical-align: top;
+    margin-top: -25px; */
+}
+
+.travel-p {
+    margin-left: -4px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    margin-right: 50px;
+}
 
 /* art layout */
 .art-gallery-container {

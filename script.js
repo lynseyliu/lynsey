@@ -58,8 +58,8 @@ app.controller("ctrl", function($scope) {
 
     $.get("/art/content.txt", function(data){
         lines = data.split("\n");
-        for (var i = 0; i < lines.length; i += 3) {
-            $scope.artList.push({ title: lines[i], img: lines[i+1] });
+        for (var i = 0; i < lines.length; i += 4) {
+            $scope.artList.push({ title: lines[i], img: lines[i+1], thumb: lines[i+2] });
         }
         $scope.$apply();
     });
