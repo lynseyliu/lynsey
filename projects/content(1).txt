@@ -1,3 +1,8 @@
+MeLInDA: Machine-Learning-Inspired Digital Art
+../melinda/
+stock-smoke.gif
+(Under Construction) A collection of digital art "exhibits" loosely inspired by machine learning, curated by me with contributions from friends!
+
 Set Bot
 https://github.com/lynseyliu/set-bot
 set.png
