@@ -1,4 +1,4 @@
-MeLINDA: Machine-Learning-Inspired Nexus of Digital Art
+MeLInDA: Machine-Learning-Inspired Digital Art
 ../melinda/
 stock-smoke.gif
 (Under Construction) A collection of digital art "exhibits" loosely inspired by machine learning, curated by me with contributions from friends!
