@@ -1,3 +1,8 @@
+Cuddly-Goggles
+https://github.com/lynseyliu/cuddly-goggles
+weather.png
+A year's worth of weather, visually!
+
 Set Bot
 https://github.com/lynseyliu/set-bot
 set.png
