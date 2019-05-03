@@ -6,7 +6,7 @@ A year's worth of weather, visually!
 Set Bot
 https://github.com/lynseyliu/set-bot
 set.png
-(In Progress) Computer-vision-enabled bot for playing the card game Set. 
+Computer-vision-enabled bot for playing the card game Set. 
 
 TL;DR: Automatic Summarization of Text-Based Conversation
 https://github.com/viterbi-or-not-to-be/viterbi-or-not-to-be

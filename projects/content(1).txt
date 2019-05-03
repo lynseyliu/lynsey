@@ -2,18 +2,3 @@ MeLInDA: Machine-Learning-Inspired Digital Art
 ../melinda/
 stock-smoke.gif
 (Under Construction) A collection of digital art "exhibits" loosely inspired by machine learning, curated by me with contributions from friends!
-
-Set Bot
-https://github.com/lynseyliu/set-bot
-set.png
-(In Progress) Computer-vision-enabled bot for playing the card game Set. 
-
-TL;DR: Automatic Summarization of Text-Based Conversation
-https://github.com/viterbi-or-not-to-be/viterbi-or-not-to-be
-viterbi.png
-NLP capstone (CSE 481N) project - A model for automatic summarization of chat and email threads, adapted from document summary models.
-
-Data Visualization: The Syrian Civil War
-https://cse442-17s.github.io/Syrian-Aid-and-Outcomes/final
-syria.png
-Data visualization (CSE 442) project - An interactive website visualizing economic aid, refugee, and health data surrounding the Syrian Civil War.
