@@ -65,7 +65,7 @@
         </div>
         <div class="content">
             <!-- projects -->
-            <div class="project-container" ng-repeat="p in projectList">
+            <div class="project-container" ng-repeat="p in projectList" ng-cloak>
                 <div class="project-item">
                     <img class="project-thumb animated fadeIn" src="img/{{ p.img }}">
                     <a class="link h3" href="{{ p.link }}" target="_blank">{{ p.title }}</a>
