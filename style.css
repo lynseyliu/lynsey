@@ -13,6 +13,7 @@ h1 {
     font-size: 24pt;
     padding-top: 40px;
     float: left;
+    color: #57504d;
 }
 
 .h2 {
@@ -309,8 +310,8 @@ iframe {
 }
 
 .landing-nav-img {
-    width: 100px;
-    height: 100px;
+    width: 120px;
+    height: 120px;
 }
 
 /* animation */
@@ -341,12 +342,14 @@ iframe {
     background-color: #fedcd2;
     position: absolute;
     z-index: -1;
+    border-radius:10px;
 }
 
 .big-rectangle-shadow {
     background-color: #df744a;
     position: absolute;
     z-index: -2;
+    border-radius:10px;
 }
 
 .small-rectangle {
