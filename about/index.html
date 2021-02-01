@@ -32,13 +32,13 @@
         <div class="header">
             <!-- decor -->
             <div class="big-rectangle" ng-repeat="r in bigRectangleList" 
-                style="width:25px; height:50px; margin-top:{{ r.top }}%; margin-left:{{ r.left }}%; transform:rotate({{ r.theta }}deg);">
+                style="width:25px; height:50px; border-radius:10px; margin-top:{{ r.top }}%; margin-left:{{ r.left }}%; transform:rotate({{ r.theta }}deg);">
             </div>
             <div class="big-rectangle-shadow" ng-repeat="r in shadowList"
-                style="width:25px; height:50px; margin-top:{{ r.top }}%; margin-left:{{ r.left }}%; transform:rotate({{ r.theta }}deg);">
+                style="width:25px; height:50px; border-radius:10px; margin-top:{{ r.top }}%; margin-left:{{ r.left }}%; transform:rotate({{ r.theta }}deg);">
             </div>
             <div class="small-rectangle" ng-repeat="r in smallRectangleList"
-                style="width:15px; height:30px; margin-top:{{ r.top }}%; margin-left:{{ r.left }}%; transform:rotate({{ r.theta }}deg);">
+                style="width:15px; height:30px; border-radius:5px; margin-top:{{ r.top }}%; margin-left:{{ r.left }}%; transform:rotate({{ r.theta }}deg);">
             </div>
             <!-- site title -->
             <div class="title">
@@ -55,8 +55,8 @@
             </div>
         </div>
         <div class="content">
-            <p>I enjoy all manner of crafts. </p>
             <p><a class="link" href="https://aka.ms/formrecognizer" target="_blank">Software engineer @ Microsoft</a>, formerly <a class="link" href="https://www.cs.washington.edu/" target="_blank">CS @ UW</a>.</p>
+            <p>I enjoy all manner of crafts. Indoors, I like board games, couch co-op, and >>. Outdoors, I like hiking, skiing, walking, and a little bit of running.</p>
         </div>
     </div>
 </body>
