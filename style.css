@@ -301,10 +301,13 @@ iframe {
 	border-bottom: 2px solid;
 }
 
-.landing-nav {
+.landing-navbar {
     overflow: hidden;
     margin-top: 0;
     padding-top: 0;
+}
+
+.landing-nav-img {
     width: 100px;
 }
 
