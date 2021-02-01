@@ -46,6 +46,7 @@ app.controller("ctrl", function($scope) {
 
     $scope.projectList = [];
     $scope.artList = [];
+    $scope.ink18List = [];
     $scope.travelList = [];
 
     $.get("/projects/content.txt", function(data){
@@ -60,6 +61,14 @@ app.controller("ctrl", function($scope) {
         lines = data.split("\n");
         for (var i = 0; i < lines.length; i += 4) {
             $scope.artList.push({ title: lines[i], img: lines[i+1], thumb: lines[i+2] });
+        }
+        $scope.$apply();
+    });
+
+    $.get("/projects/ink-2018/content.txt", function(data){
+        lines = data.split("\n");
+        for (var i = 0; i < lines.length; i += 4) {
+            $scope.ink18List.push({ title: lines[i], img: lines[i+1], thumb: lines[i+2] });
         }
         $scope.$apply();
     });
