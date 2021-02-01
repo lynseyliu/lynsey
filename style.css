@@ -303,27 +303,13 @@ iframe {
 
 .landing-navbar {
     overflow: hidden;
-    margin-top: 50px;
+    margin-top: 20px;
+    margin-left: -10px;
     padding-top: 0;
 }
 
 .landing-nav-img {
     width: 100px;
-}
-
-#landing-nav-projects:hover {
-    background:url(img/projects-hover.png);
-    z-index:2;
-}
-
-#landing-nav-pictures:hover {
-    background:url(img/pictures-hover.png);
-    z-index:2;
-}
-
-#landing-nav-about:hover {
-    background:url(img/about-hover.png);
-    z-index:2;
 }
 
 /* animation */
