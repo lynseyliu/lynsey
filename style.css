@@ -308,30 +308,45 @@ iframe {
     padding-top: 0;
 }
 
-.landing-nav-img {
+#landing-nav-projects {
+    background:url(img/projects.png);
+    background-size: contain;
     width: 100px;
+    height: 100px;
 }
-
 #landing-nav-projects:hover {
     background:url(img/projects-hover.png);
+    background-size: contain;
     width: 100px;
+    height: 100px;
     z-index:2;
 }
 
 #landing-nav-pictures {
     background:url(img/pictures.png);
     background-size: contain;
+    width: 100px;
+    height: 100px;
 }
-
 #landing-nav-pictures:hover {
     background:url(img/pictures-hover.png);
     background-size: contain;
+    width: 100px;
+    height: 100px;
     z-index:2;
 }
 
+#landing-nav-about {
+    background:url(img/about.png);
+    background-size: contain;
+    width: 100px;
+    height: 100px;
+}
 #landing-nav-about:hover {
     background:url(img/about-hover.png);
+    background-size: contain;
     width: 100px;
+    height: 100px;
     z-index:2;
 }
 
