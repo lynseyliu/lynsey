@@ -318,9 +318,14 @@ iframe {
     z-index:2;
 }
 
+#landing-nav-pictures {
+    background:url(img/pictures.png);
+    background-size: contain;
+}
+
 #landing-nav-pictures:hover {
     background:url(img/pictures-hover.png);
-    width: 100px;
+    background-size: contain;
     z-index:2;
 }
 
