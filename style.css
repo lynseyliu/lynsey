@@ -302,15 +302,20 @@ iframe {
 }
 
 .landing-nav {
+    overflow: hidden;
+    margin-top: 0;
+    padding-top: 0;
     width: 100px;
 }
 
 #landing-nav-projects {
-    
+    background:url(img/projects-hover.png);
+    z-index:2;
 }
 
 #landing-nav-pictures {
-
+    background:url(img/pictures-hover.png);
+    z-index:2;
 }
 
 #landing-nav-about {
