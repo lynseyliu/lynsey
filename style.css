@@ -312,6 +312,24 @@ iframe {
     width: 100px;
 }
 
+#landing-nav-projects:hover {
+    background:url(img/projects-hover.png);
+    width: 100px;
+    z-index:2;
+}
+
+#landing-nav-pictures:hover {
+    background:url(img/pictures-hover.png);
+    width: 100px;
+    z-index:2;
+}
+
+#landing-nav-about:hover {
+    background:url(img/about-hover.png);
+    width: 100px;
+    z-index:2;
+}
+
 /* animation */
 .animated {
     -webkit-animation-duration: 3s;

@@ -21,16 +21,6 @@ window.addEventListener('load', function() {
     baguetteBox.run('.gallery');
 });
 
-$(".landing-nav-img").hover(function(){
-    $(this).attr("src", function(index, attr){
-        return attr.replace(".png", "-hover.png");
-    });
-}, function(){
-    $(this).attr("src", function(index, attr){
-        return attr.replace("-hover.png", ".png");
-    });
-});
-
 app.controller("ctrl", function($scope) {
     $scope.bigRectangleList = [{top: 2, left: -10, theta: -80},
                             {top: 0, left: 30, theta: 210},
