@@ -144,6 +144,12 @@ iframe {
     top: 0;
 }
 
+/* baguette */
+#baguetteBox-overlay .full-image figcaption {
+    left: 0;
+    padding: 1rem .5rem 1.5rem .5rem;
+}
+
 /* project layout */
 .project-container {
     display: inline-grid;
