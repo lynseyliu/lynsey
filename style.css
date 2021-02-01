@@ -311,17 +311,17 @@ iframe {
     width: 100px;
 }
 
-#landing-nav-projects {
+#landing-nav-projects:hover {
     background:url(img/projects-hover.png);
     z-index:2;
 }
 
-#landing-nav-pictures {
+#landing-nav-pictures:hover {
     background:url(img/pictures-hover.png);
     z-index:2;
 }
 
-#landing-nav-about {
+#landing-nav-about:hover {
     background:url(img/about-hover.png);
     z-index:2;
 }
