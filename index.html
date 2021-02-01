@@ -30,36 +30,15 @@
 <body>
     <div class="site-container" ng-controller="ctrl" ng-cloak>
         <div class="header">
-            <!-- decor -->
-            <div class="big-rectangle" ng-repeat="r in bigRectangleList" 
-                style="width:25px; height:50px; margin-top:{{ r.top }}%; margin-left:{{ r.left }}%; transform:rotate({{ r.theta }}deg);">
-            </div>
-            <div class="big-rectangle-shadow" ng-repeat="r in shadowList"
-                style="width:25px; height:50px; margin-top:{{ r.top }}%; margin-left:{{ r.left }}%; transform:rotate({{ r.theta }}deg);">
-            </div>
-            <div class="small-rectangle" ng-repeat="r in smallRectangleList"
-                style="width:15px; height:30px; margin-top:{{ r.top }}%; margin-left:{{ r.left }}%; transform:rotate({{ r.theta }}deg);">
-            </div>
             <!-- site title -->
             <div class="title">
-                <!-- name -->
-                <h1 class="landing">Lynsey Liu</h1>
-                <!-- social icons -->
-                <!-- <div class="social">
-                    <ul class="social-list">
-                        <li class="social-item"><a class="fa fa-github social-icon" href="https://github.com/lynseyliu" target="_blank"></a></li>
-                        <li class="social-item"><a class="fa fa-linkedin social-icon" href="https://www.linkedin.com/in/lynseyliu" target="_blank"></a></li>
-                        <li class="social-item"><a class="fa fa-facebook social-icon" href="https://www.facebook.com/wynseyroo" target="_blank"></a></li>
-                        <li class="social-item"><a class="fa fa-instagram social-icon" href="https://www.instagram.com/lynsey.liu" target="_blank"></a></li>
-                    </ul>
-                </div> -->
+                <h1>Lynsey Liu</h1>
             </div>
-            <div class="clear"></div>
         </div>
-        <div class="content">
-            <a href="projects/">🔨</a>
-            <a href="travel/">🖼️</a>
-            <a href="about/">🙋‍♀️</a>
+        <div class="navbar">
+            <a href="projects/"><img class="landing-nav" src="img/projects.png"></a>
+            <a href="travel/"><img class="landing-nav" src="img/pictures.png"></a>
+            <a href="about/"><img class="landing-nav" src="img/about.png"></a>
         </div>
     </div>
 </body>

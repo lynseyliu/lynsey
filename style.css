@@ -15,14 +15,6 @@ h1 {
     float: left;
 }
 
-.landing {
-    font-family: 'Abril Fatface', cursive;
-    font-size: 36pt;
-    padding-top: 10%;
-    width: 100%;
-    text-align: center;
-}
-
 .h2 {
     font-family: 'Poppins', sans-serif;
     font-size: 18pt;
@@ -307,6 +299,23 @@ iframe {
     text-decoration: none;
     padding-bottom: 0;
 	border-bottom: 2px solid;
+}
+
+.landing-nav {
+    width: 100px;
+}
+
+#landing-nav-projects {
+    
+}
+
+#landing-nav-pictures {
+
+}
+
+#landing-nav-about {
+    background:url(img/about-hover.png);
+    z-index:2;
 }
 
 /* animation */
