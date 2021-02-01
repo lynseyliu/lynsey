@@ -342,14 +342,14 @@ iframe {
     background-color: #fedcd2;
     position: absolute;
     z-index: -1;
-    border-radius:10px;
+    border-radius:7px;
 }
 
 .big-rectangle-shadow {
     background-color: #df744a;
     position: absolute;
     z-index: -2;
-    border-radius:10px;
+    border-radius:7px;
 }
 
 .small-rectangle {
