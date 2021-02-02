@@ -64,7 +64,7 @@ app.controller("ctrl", function($scope) {
         $scope.$apply();
     });
 
-    $.get("/travel/content.txt", function(data){
+    $.get("/pictures/content.txt", function(data){
         lines = data.split("\n");
         for (var i = 0; i < lines.length; i += 5) {
             $scope.travelList.push({ title: lines[i], description: lines[i+1], id: lines[i+2], link: lines[i+3] });
