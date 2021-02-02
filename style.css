@@ -101,6 +101,10 @@ li {
     padding: 0;
 }
 
+.emoji {
+    margin-right: 7px;
+}
+
 /* general layout */
 .header {
     max-width: 900px;
