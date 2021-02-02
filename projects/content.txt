@@ -1,9 +1,9 @@
-Inktober 2018
-http://www.lynseyliu.com/projects/ink-2018/
->>
-That one time I tried to do Inktober
-
-Cuddly-Goggles
+Cuddly Goggles
 https://github.com/lynseyliu/cuddly-goggles
 weather.png
-A year's worth of weather, visually!
+A year's worth of weather, visually
+
+Inktober 2018
+http://www.lynseyliu.com/projects/ink-2018/
+inktober-18.png
+That one time I tried to do Inktober
