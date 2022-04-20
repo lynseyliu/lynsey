@@ -1,45 +1,26 @@
 <!DOCTYPE html>
-<html ng-app="lyns-app">
 <head>
     <title>Lynsey Liu</title>
     <meta charset="UTF-8">
-	<!-- jQuery -->
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
-	<!-- Bootstrap -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,700i,800,800i,900" rel="stylesheet">
     <!-- icon font -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	<!-- page layout, general -->
+	<!-- styling -->
     <link rel="stylesheet" href="/style.css">
-	<!-- AngularJS -->
-    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular.min.js"></script>
-    <!-- baguettebox -->
-    <!-- <link rel="stylesheet" href="/baguetteBox.min.css">
-    <script src="/baguetteBox.min.js" async></script> -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.js" async></script>
-    <!-- my js -->
-    <script type="text/javascript" src="/script.js"></script>
 </head>
 
 <body>
-    <div class="site-container" ng-controller="ctrl" ng-cloak>
-        <div class="header">
-            <!-- site title -->
-            <div class="title">
-                <h1>Lynsey Liu</h1>
-            </div>
-            <div class="clear"></div>
-            <div class="landing-navbar">
-                <a href="projects/"><img class="landing-nav-img" id="landing-nav-projects" src="img/projects.png" onmouseover="this.src='img/projects-hover.png'" onmouseout="this.src='img/projects.png'"></a>
-                <a href="pictures/"><img class="landing-nav-img" id="landing-nav-pictures" src="img/pictures.png" onmouseover="this.src='img/pictures-hover.png'" onmouseout="this.src='img/pictures.png'"></a>
-                <a href="about/"><img class="landing-nav-img" id="landing-nav-about" src="img/about.png" onmouseover="this.src='img/about-hover.png'" onmouseout="this.src='img/about.png'"></a>
-            </div>
+    <div class="container flex-direction">
+        <div class="image">
+            <img src="img.png">
+        </div>
+        <div class="content">
+            <p>Hi, I'm Lynsey <span class="emoji">👋</span></p>
+            <p>I'm a golden pothos enthusiast and a bit of a serial hobbyist.</p>
+            <p>Indoors, I like couch co-op and board games, reading on my Kindle, and all manner of crafts. Outdoors, I like national parks, hiking, skiing, and a little bit of running.</p>
+            <p>Soon to be <a class="link" href="https://www.pinwheelapi.com/" target="_blank">software engineering @ Pinwheel</a>, formerly <a class="link" href="https://aka.ms/formrecognizer" target="_blank">Microsoft</a> and <a class="link" href="https://www.cs.washington.edu/" target="_blank">CS @ UW</a>.</p>
         </div>
     </div>
 </body>

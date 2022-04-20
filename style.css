@@ -1,8 +1,3 @@
-/* hide angular internals until ready */
-[ng\:cloak],[ng-cloak],.ng-cloak {
-    display: none !important;
-}
-
 /* font */
 ::selection {
     background: rgba(143, 216, 210, 0.5);
@@ -35,7 +30,6 @@ h1 {
 .page-title {
     font-family: 'Poppins', sans-serif;
     font-size: 14pt;
-    margin-top: 5px;
     margin-bottom: 10px;
     line-height: 24pt;
     font-weight: 600;
@@ -112,10 +106,10 @@ li {
     position: relative;
 }
 
-.content {
+/* .content {
     max-width: 900px;
     margin: 0 auto;
-}
+} */
 
 .clear {
     clear: both;
@@ -159,206 +153,38 @@ iframe {
     top: 0;
 }
 
-/* baguette */
-#baguetteBox-overlay .full-image figcaption {
-    left: 0;
-    padding: 1rem .5rem 1.5rem .5rem;
-    width: auto;
-    margin-left: 25%;
-    margin-right: 25%;
+.container {
+    display: inline-flex;
+    flex-wrap: wrap;
 }
 
-/* project layout */
-.project-container {
-    display: inline-grid;
-    grid-template-columns: 450px;
-    grid-gap: 30px;
-    vertical-align: top;
-    margin-top: -25px;
+.flex-direction{
+    flex-direction: row;
 }
 
-.project-item {
-    padding: 20px;
-    padding-right: 30px;
+.image {
+    width: 165px;
+    height: 132px;
+}
+  
+.content {
+    width: 314px;
+    height: 132px;
 }
 
-.project-thumb {
-    max-width: 90%;
-    max-height: 300px;
-    border-radius: 5px;
-    margin: 20px;
-    margin-left: 0px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
+@media screen and (max-width: 500px) {
+    .flex-direction {
+        flex-direction: column;
+    }
 
-/* travel layout */
+    .image {
+        width: 202px;
+        height: 131px;
+        border-right: none;
+    }
 
-.travel-container {
-    display: inline-grid;
-    grid-template-columns: 450px;
-    /* grid-gap: 10px; */
-    /*vertical-align: top;
-    margin-top: -25px; */
-}
-
-.travel-p {
-    margin-left: -4px;
-    margin-top: 0px;
-    margin-bottom: 10px;
-    margin-right: 50px;
-}
-
-/* art layout */
-.art-gallery-container {
-    display: inline-grid;
-    grid-template-columns: 205px 205px 205px 205px;
-    grid-gap: 12px;
-    vertical-align: top;
-}
-
-.art-gallery-item {
-    padding: 0px;
-}
-
-/* header icons */
-.social {
-    float: right;
-    text-align: right;
-    margin-top: 20px;
-    padding-top: 50px;
-    padding-right: 15px;
-}
-
-.social-list {
-    list-style-type: none;
-    font-size: 0pt;
-}
-
-.social-item {
-    display: inline-block;
-    padding-right: 30px;
-}
-
-.social-item:last-child {
-    padding-right: 0px;
-}
-
-.social-icon {
-    color: black;
-    text-decoration: none;
-    font-size: 14pt;
-}
-
-.social-icon:hover {
-    color: #df744a;
-    cursor: pointer;
-    text-decoration: none;
-}
-
-.social-icon:focus {
-    color: black;
-    text-decoration: none;
-}
-
-/* navbar */
-.navbar {
-    overflow: hidden;
-    margin-top: 0;
-    padding-top: 0;
-}
-
-.navbar a {
-    float: left;
-    color: black;
-    text-align: center;
-    margin: 14px 50px 20px 0px;
-    font-size: 10pt;
-    font-weight: 450;
-    text-transform: uppercase;
-    border-bottom: 2px solid;
-    border-color: white;
-}
-
-.navbar a:last-child {
-    margin-right: 0px;
-}
-
-.navbar a:hover {
-    color: #df744a;
-    cursor: pointer;
-    text-decoration: none;
-    padding-bottom: 0;
-	border-bottom: 2px solid;
-}
-
-.navbar a:focus, active {
-    color: black;
-    text-decoration: none;
-    padding-bottom: 0;
-	border-bottom: 2px solid;
-    border-color: white;
-}
-
-.navbar a:active {
-    color: #df744a;
-    text-decoration: none;
-    padding-bottom: 0;
-	border-bottom: 2px solid;
-}
-
-.landing-navbar {
-    overflow: hidden;
-    margin-top: 20px;
-    margin-left: -10px;
-    padding-top: 0;
-}
-
-.landing-nav-img {
-    width: 120px;
-    height: 120px;
-}
-
-/* animation */
-.animated {
-    -webkit-animation-duration: 3s;
-    animation-duration: 3s;
-    -webkit-animation-fill-mode: both;
-    animation-fill-mode: both;
- }
- 
- @-webkit-keyframes fadeIn {
-    0% {opacity: 0;}
-    100% {opacity: 1;}
- }
- 
- @keyframes fadeIn {
-    0% {opacity: 0;}
-    100% {opacity: 1;}
- }
- 
- .fadeIn {
-    -webkit-animation-name: fadeIn;
-    animation-name: fadeIn;
- }
-
-/* shapes */
-.big-rectangle {
-    background-color: #fedcd2;
-    position: absolute;
-    z-index: -1;
-    border-radius:7px;
-}
-
-.big-rectangle-shadow {
-    background-color: #df744a;
-    position: absolute;
-    z-index: -2;
-    border-radius:7px;
-}
-
-.small-rectangle {
-    border-left: 4px solid #8fd8d2;
-    border-right: 4px solid #8fd8d2;
-    position: absolute;
-    z-index: -1;
+    .content {
+        width: 202px;
+        height: 107px;
+    }
 }
