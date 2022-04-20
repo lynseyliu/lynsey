@@ -1,57 +1,31 @@
 /* font */
 ::selection {
-    background: rgba(143, 216, 210, 0.5);
+    background: rgba(240, 200, 188, 0.5);
 }
 
 h1 {
-    font-family: 'Abril Fatface', cursive;
-    font-size: 24pt;
-    padding-top: 40px;
-    float: left;
-    color: #57504d;
-}
-
-.h2 {
     font-family: 'Poppins', sans-serif;
     font-size: 18pt;
-    margin-left: -4px;
-    margin-bottom: 0px;
-    line-height: 24pt;
-}
-
-.h3 {
-    font-family: 'Poppins', sans-serif;
-    font-size: 14pt;
     margin-top: 5px;
-    margin-bottom: 10px;
-    line-height: 24pt;
-}
-
-.page-title {
-    font-family: 'Poppins', sans-serif;
-    font-size: 14pt;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     line-height: 24pt;
     font-weight: 600;
-    text-transform: uppercase;
-}
-
-.underline {
-    text-decoration: none;
-    padding-bottom: 0px;
-	border-bottom: 1px solid;
 }
 
 p {
     font-family: 'Poppins', sans-serif;
     font-size: 12pt;
     margin-top: 8px;
-    margin-bottom: 18px;
+    margin-bottom: 10px;
     line-height: 18pt;
 }
 
-.p {
-    margin-bottom: 4px;
+.little {
+    font-family: 'Poppins', sans-serif;
+    font-size: 9pt;
+    margin-top: 8px;
+    margin-bottom: 10px;
+    line-height: 18pt;
 }
 
 li {
@@ -60,8 +34,14 @@ li {
     line-height: 24pt;
 }
 
+.underline {
+    text-decoration: none;
+    padding-bottom: 0px;
+	border-bottom: 1px solid;
+}
+
 .link {
-    color: black;
+    color: #8fd8d2;
     font-weight: 500;
     text-decoration: none;
     padding-bottom: 0px;
@@ -101,32 +81,40 @@ li {
 
 /* layout */
 .container {
-    display: inline-flex;
+    display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 .flex-direction{
+    display: inline-flex;
     flex-direction: row;
 }
 
 .image {
-    width: 100px;
+    width: 250px;
+    height: 100%;
 }
   
 .content {
     width: 700px;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 700px) {
     .flex-direction {
         flex-direction: column;
     }
 
     .image {
-        height: 50px;
+        width: 200px;
+        height: 100%;
     }
 
     .content {
-        height: 300px;
+        width: 100%;
     }
 }
