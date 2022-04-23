@@ -1,6 +1,6 @@
 /* font */
 ::selection {
-    background: rgba(240, 200, 188, 0.5);
+    background: rgba(240, 196, 188, 0.5);
 }
 
 h1 {
@@ -23,7 +23,7 @@ p {
 .little {
     font-family: 'Poppins', sans-serif;
     font-size: 9pt;
-    margin-top: 8px;
+    margin-top: 16px;
     margin-bottom: 10px;
     line-height: 18pt;
 }
@@ -49,7 +49,7 @@ li {
 }
 
 .link:hover {
-    color: #df744a;
+    color: #a64106;
     cursor: pointer;
     text-decoration: none;
     padding-bottom: 0px;
@@ -96,21 +96,22 @@ li {
 }
 
 .image {
-    width: 250px;
+    width: 160px;
     height: 100%;
 }
   
 .content {
     width: 700px;
+    margin-left: 30px;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 1000px) {
     .flex-direction {
         flex-direction: column;
     }
 
     .image {
-        width: 200px;
+        width: 160px;
         height: 100%;
     }
 
